@@ -35,7 +35,7 @@ Google AI Studio からAPIキーを取得してください。
 3. アプリの起動
 リポジトリのディレクトリで以下のコマンドを実行します。
 
-**streamlit run app.py
+```streamlit run app.py```
 
 ※ app.py は、提供されたコードを保存したファイル名に置き換えてください。
 
