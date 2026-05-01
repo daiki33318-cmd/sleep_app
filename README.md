@@ -23,15 +23,13 @@ AI SDK: Google Generative AI (Gemini)
 **1. 必要ライブラリのインストール
 以下のコマンドを実行して、必要なパッケージをインストールしてください。
 
-Bash
-pip install streamlit pandas google-generativeai
+```pip install streamlit pandas google-generativeai```
 2. Gemini APIキーの取得
 Google AI Studio からAPIキーを取得してください。
 
 3. アプリの起動
 リポジトリのディレクトリで以下のコマンドを実行します。
 
-**Bash
 **streamlit run app.py
 ※ app.py は、提供されたコードを保存したファイル名に置き換えてください。
 
