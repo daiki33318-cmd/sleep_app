@@ -1,8 +1,10 @@
-**🌙 睡眠改善AIサポーター (Sleep AI Supporter)**
+🌙 **睡眠改善AIサポーター (Sleep AI Supporter)**
+
 StreamlitとGemini APIを活用した、個人の睡眠ログ記録およびAIによるアドバイス提供ツールです。日々の睡眠時間を可視化し、AI睡眠コンサルタントから改善のアドバイスを受けることができます。  
 
-**📋 主な機能
-**睡眠ログの記録: 日付、就寝時間、起床時間を入力し、自動で睡眠時間を計算して保存します。  
+📋 **主な機能**
+
+睡眠ログの記録: 日付、就寝時間、起床時間を入力し、自動で睡眠時間を計算して保存します。  
 
 データの可視化: 保存されたデータをもとに、睡眠時間の推移をラインチャートで表示します。  
 
@@ -23,7 +25,8 @@ AI SDK: Google Generative AI (Gemini)
 1. 必要ライブラリのインストール
 以下のコマンドを実行して、必要なパッケージをインストールしてください。
 
-```pip install streamlit pandas google-generativeai```\n
+```pip install streamlit pandas google-generativeai```
+
 2. Gemini APIキーの取得
 Google AI Studio からAPIキーを取得してください。
 
@@ -31,9 +34,11 @@ Google AI Studio からAPIキーを取得してください。
 リポジトリのディレクトリで以下のコマンドを実行します。
 
 **streamlit run app.py
+
 ※ app.py は、提供されたコードを保存したファイル名に置き換えてください。
 
 💡 **使い方**
+
 サイドバーの 「⚙️ 設定」 項目に取得した Gemini APIキーを入力します。  
 
 「🛌 睡眠記録を入力」 セクションで、その日の就寝・起床時間を入力し「記録を保存する」をクリックします。  
